@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* selector universal */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(240, 37%, 8%);
+    color: #fff;
+    font-family: "Figtree", serif;
+}
+
+header{
+    margin: auto;
+    width: 1200px;
+    height: 104px;
+    background-color: hsl(243, 38%, 12%);   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header nav a{
+        margin: 12px;
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none; /* quitar subrayado */
+    }
+
+main{
+    margin: auto;
+    width: 1200px;
+    min-height: 780px;
+    /* background-color: hsl(240, 37%, 8%); */
+}
+
+/* sección hero-banner */
+#hero-banner{
+    height: 512px;
+    background-image: url(../imgs/hero-banner.jpg);
+    display: flex;
+    align-items: center;
+}
+    #hero-banner h1{
+        width: 552px;
+        margin-left: 104px;
+        padding: 10px 16px;
+        font-size: 40px;
+        font-weight: 600;
+        background-color: hsla(240, 37%, 8%, 50%);
+    }
+
+/* sección ejemplos */
+#ejemplos{
+    margin-top: 56px;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #ejemplos article{
+            width: 384px;
+            padding: 16px;
+            background-color: #06060E;
+    }
+        #ejemplos article h2{
+            padding: 16px 0px;
+        }
+
+
+footer{
+    margin: 56px auto 0px auto;
+    width: 1200px;
+    height: 216px;
+    background-color: hsl(240, 40%, 4%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #logo-footer{
+        width: 152px;
+    }
+    footer nav a{
+        margin: 16px;
+        text-decoration: none;
+    }
